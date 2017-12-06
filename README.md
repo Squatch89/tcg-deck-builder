@@ -20,16 +20,3 @@ List of Packages
 | body-parser                     | Express 4 middleware.                                                 |
 | Pokemontcgsdk                   | An api that searches the pokemon tcg website for card data            |
 | dotenv                          | Handles environment variables                                         |
-
-Resources Referenced
---------------------
-- [The Difference Between URLs and URIs](https://danielmiessler.com/study/url-uri/) - Rest APIs
-
- MVC Design Model Employed (Model, View & Control)
---------------------------------------------------
-*   Model: Where the business logic of the app resides. Interacts with data store.
-*   View:  Where UI is managed.
-*   Controller: Where routes were created, and logic set up within those routes where required. User requests managed here and data from the model received and based on the users authorization the request or denied request is passed back to the view.
-
-
-
